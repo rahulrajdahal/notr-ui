@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node", "jest"],
+    "paths": {
+      "@rahulrajdahal/notr-button/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*", "src/styles.d.ts"],
+  "exclude": ["node_modules"]
+}
