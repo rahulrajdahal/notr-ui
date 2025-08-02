@@ -25,7 +25,7 @@ const variants = {
     padding: 1.31rem;
 
     &:disabled {
-      background-color: var(--color-gray-400) !important;
+      background-color: var(--color-gray-400);
       color: #ffffff;
     }
   `,
@@ -33,6 +33,7 @@ const variants = {
     border: 1px solid var(--color-primary-600);
     border-radius: 0.8125rem;
     padding: 1.31rem;
+    background-color: transparent;
 
     &:disabled {
       border-color: var(--color-gray-400);
@@ -61,10 +62,14 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     {
       variant = "fill",
       disabled = false,
-      // background = variant === "fill" && !disabled
-      //   ? colors.primary[600]
-      //   : undefined,
-      color = variant === "fill" ? "#ffffff" : colors.primary[600],
+      background = variant === "fill" && !disabled
+        ? colors.primary[600]
+        : undefined,
+      color = variant === "fill" && !disabled
+        ? "#ffffff"
+        : variant === "outline" || variant === "text"
+        ? colors.primary[600]
+        : undefined,
       className = "",
       children,
       ...props
@@ -76,8 +81,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         ref={ref}
         style={
           {
-            backgroundColor:
-              variant === "fill" && !disabled ? colors.primary[600] : undefined,
+            backgroundColor: background,
             color,
             "--color-primary-600": colors.primary[600],
             "--color-gray-400": colors.gray[400],

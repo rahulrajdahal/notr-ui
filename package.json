@@ -10,10 +10,27 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "publish": "changeset publish"
+    "publish": "changeset publish",
+    "storybook": "storybook dev -p 6006 -c apps/.storybook",
+    "build-storybook": "storybook build",
+    "docs:dev": "vitepress dev apps/docs",
+    "docs:build": "vitepress build apps/docs",
+    "docs:preview": "vitepress preview apps/docs"
   },
   "devDependencies": {
+    "@changesets/cli": "latest",
+    "@chromatic-com/storybook": "^4.1.0",
+    "@storybook/addon-a11y": "9.1.0",
+    "@storybook/addon-docs": "^9.1.0",
+    "@storybook/react-vite": "^9.1.0",
+    "prop-types": "^15.8.1",
+    "storybook": "^9.1.0",
     "turbo": "latest",
-    "@changesets/cli": "latest"
+    "vitepress": "^1.6.3",
+    "@rahulrajdahal/notr-button": "workspace:*"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   }
 }
