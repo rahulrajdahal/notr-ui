@@ -16,13 +16,15 @@ return <Button>Notr Button</Button>
 import { createElement } from 'react'
 import { createRoot } from 'react-dom/client'
 import { ref, onMounted } from 'vue'
+import Container from './Container.tsx'
 import Button from '@rahulrajdahal/notr-button'
 
 const el = ref()
 onMounted(() => {
   const root = createRoot(el.value)
-  root.render(createElement(Button, {}, "Notr Button"))
+  root.render(createElement(Container))
 })
+
 </script>
 ----
 
@@ -37,7 +39,8 @@ onMounted(() => {
 
 <tbody>
 <tr>
-<td> Variant
+<td>variant</td>
+<td> enum
 <Tooltip position="top" backgroundColor="#6366f1">
   <template #trigger>
   ℹ️
@@ -46,8 +49,18 @@ onMounted(() => {
    fill | outline | text
   </template>
 </Tooltip>
-
 </td>
+<td>fill</td>
+</tr>
+<tr>
+<td>background</td>
+<td>string</td>
+<td>-</td>
+</tr>
+<tr>
+<td>color</td>
+<td>string</td>
+<td>-</td>
 </tr>
 </tbody>
 </table>

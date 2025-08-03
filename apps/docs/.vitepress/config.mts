@@ -13,11 +13,8 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
+        text: "Core",
+        items: [{ text: "Colors", link: "/core/colors" }],
       },
       {
         text: "Components",
