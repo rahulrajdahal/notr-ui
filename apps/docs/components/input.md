@@ -1,4 +1,3 @@
-
 # Input
 
 ## Usage
@@ -6,45 +5,19 @@
 Notr Input
 
 ```tsx
-import Input from '@rahulrajdahal/notr-input'
+import Input from "@rahulrajdahal/notr-input";
 
-return <Input label="Notr Input"/>
+return <Input label="Notr Input" />;
 ```
 
 ## Props
 
-<table>
-<thead>
-<tr>
-<td>Props</td>
-<td>Type</td>
-<td>Default</td>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>label</td>
-<td> string</td>
-<td>-</td>
-</tr>
-<tr>
-<td>errors</td>
-<td>string[]</td>
-<td>-</td>
-</tr>
-<tr>
-<td>labelProps</td>
-<td>ReactComponentProps</td>
-<td>-</td>
-</tr>
-<tr>
-<td>inputProps</td>
-<td>ReactComponentProps</td>
-<td>-</td>
-</tr>
-</tbody>
-</table>
+| Props      |         Type          | Default |
+| ---------- | :-------------------: | ------: |
+| label      |       `string`        |       - |
+| errors     |      `string[]`       |       - |
+| labelProps | `ReactComponentProps` |       - |
+| inputProps | `ReactComponentProps` |       - |
 
 ## Example
 

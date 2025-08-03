@@ -2,9 +2,14 @@
 
 import Button from "@rahulrajdahal/notr-button";
 import { colors } from "@rahulrajdahal/notr-core";
+import DebounceInput from "@rahulrajdahal/notr-debounceInput";
 import Input from "@rahulrajdahal/notr-input";
+import { useState } from "react";
 
-export default function page() {
+export default function Page() {
+  const [debounceValue, setDebounceValue] = useState("");
+  const [debounceValue2, setDebounceValue2] = useState("");
+
   return (
     <main className="px-[12.5%] py-12">
       <h1 className="text-5xl font-bold">Notr Playground</h1>
@@ -56,6 +61,34 @@ export default function page() {
               placeholder: "Input Props",
             }}
           />
+        </div>
+      </div>
+
+      <div className="flex flex-col gap-4 mt-12">
+        <h2 className="text-3xl font-semibold">Notr Debounce Input</h2>
+
+        <div className="flex gap-8">
+          <div className="flex flex-col gap-2">
+            <DebounceInput
+              value={debounceValue}
+              onChange={(value) => setDebounceValue(value as string)}
+              placeholder="Debounce Input"
+            />
+            <p className="text-sm">
+              debounce: <span className="italic"> {debounceValue}</span>
+            </p>
+          </div>
+          <div className="flex flex-col gap-2">
+            <DebounceInput
+              value={debounceValue2}
+              onChange={(value) => setDebounceValue2(value as string)}
+              placeholder="Debounce Input with debounce"
+              debounce={1000}
+            />
+            <p className="text-sm">
+              debounce: <span className="italic"> {debounceValue2}</span>
+            </p>
+          </div>
         </div>
       </div>
     </main>

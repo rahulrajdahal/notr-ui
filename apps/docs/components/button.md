@@ -25,7 +25,7 @@ return <Button>Notr Button</Button>
 <tbody>
 <tr>
 <td>variant</td>
-<td> enum
+<td> <code>enum
 <Tooltip position="top" backgroundColor="#6366f1">
   <template #trigger>
   ℹ️
@@ -34,17 +34,18 @@ return <Button>Notr Button</Button>
    fill | outline | text
   </template>
 </Tooltip>
+</code>
 </td>
 <td>fill</td>
 </tr>
 <tr>
 <td>background</td>
-<td>string</td>
+<td><code>string</code></td>
 <td>-</td>
 </tr>
 <tr>
 <td>color</td>
-<td>string</td>
+<td><code>string</code></td>
 <td>-</td>
 </tr>
 </tbody>

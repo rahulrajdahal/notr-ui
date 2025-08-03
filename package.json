@@ -24,6 +24,7 @@
     "@rahulrajdahal/notr-button": "workspace:*",
     "@rahulrajdahal/notr-core": "workspace:*",
     "@rahulrajdahal/notr-input": "workspace:*",
+    "@rahulrajdahal/notr-debounceInput": "workspace:*",
     "@storybook/addon-a11y": "9.1.0",
     "@storybook/addon-docs": "^9.1.0",
     "@storybook/react-vite": "^9.1.0",

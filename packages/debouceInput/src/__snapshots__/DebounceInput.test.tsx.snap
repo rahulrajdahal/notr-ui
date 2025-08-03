@@ -1,0 +1,55 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Debounce Input Component > renders with default props and styles 1`] = `
+.emotion-0 {
+  outline: none;
+  border: none;
+}
+
+<input
+  class="emotion-0"
+  data-testid="notr-debounce"
+  value=""
+/>
+`;
+
+exports[`Debounce Input Component > renders with default props and styles 2`] = `
+.emotion-0 {
+  outline: none;
+  border: none;
+}
+
+.emotion-0 {
+  outline: none;
+  border: none;
+}
+
+<input
+  class="emotion-0"
+  data-testid="notr-debounce"
+  value="Debounce Input"
+/>
+`;
+
+exports[`Debounce Input Component > renders with delay props and styles 1`] = `
+.emotion-0 {
+  outline: none;
+  border: none;
+}
+
+.emotion-0 {
+  outline: none;
+  border: none;
+}
+
+.emotion-0 {
+  outline: none;
+  border: none;
+}
+
+<input
+  class="emotion-0"
+  data-testid="notr-debounce"
+  value="Debounce value"
+/>
+`;
