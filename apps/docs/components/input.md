@@ -35,12 +35,12 @@ return <Input label="Notr Input"/>
 </tr>
 <tr>
 <td>labelProps</td>
-<td>html label Props</td>
+<td>ReactComponentProps</td>
 <td>-</td>
 </tr>
 <tr>
 <td>inputProps</td>
-<td>html input Props</td>
+<td>ReactComponentProps</td>
 <td>-</td>
 </tr>
 </tbody>

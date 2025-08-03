@@ -1,0 +1,29 @@
+
+> playground@0.1.0 build D:\programming\notr-ui\apps\playground
+> next build
+
+   ▲ Next.js 15.4.5
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 6.0s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/5) ...
+   Generating static pages (1/5) 
+   Generating static pages (2/5) 
+   Generating static pages (3/5) 
+ ✓ Generating static pages (5/5)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    9.28 kB         109 kB
+└ ○ /_not-found                            996 B         101 kB
++ First Load JS shared by all             100 kB
+  ├ chunks/852-2120659f9664b099.js       43.9 kB
+  ├ chunks/b12fa0b3-2db5a15fff3d4d07.js  54.1 kB
+  └ other shared chunks (total)          1.99 kB
+
+
+○  (Static)  prerendered as static content
+
