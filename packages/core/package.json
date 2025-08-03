@@ -10,13 +10,14 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c && tsc -p tsconfig.declaration.json",
     "dev": "rollup -c -w",
+    "build": "rollup -c",
     "prepublishOnly": "pnpm run build"
   },
   "peerDependencies": {
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "@rahulrajdahal/notr-rollup": "workspace:*"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.6",

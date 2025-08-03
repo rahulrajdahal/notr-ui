@@ -21,6 +21,7 @@ export default function Container({ children }: ContainerProps) {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          backgroundColor: colors.white,
         }}
       >
         <Button
