@@ -2,11 +2,7 @@ import Button from "@rahulrajdahal/notr-button";
 import { colors } from "@rahulrajdahal/notr-core";
 import React from "react";
 
-type ContainerProps = { children: React.ReactNode };
-
-export default function Container({ children }: ContainerProps) {
-  const ref = React.useRef();
-
+export default function ButtonContainer() {
   const [variant, setVariant] = React.useState<"fill" | "outline" | "text">(
     "fill"
   );
@@ -21,15 +17,10 @@ export default function Container({ children }: ContainerProps) {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          backgroundColor: colors.white,
+          // backgroundColor: colors.white,
         }}
       >
-        <Button
-          ref={ref}
-          color={color}
-          background={background}
-          variant={variant}
-        >
+        <Button color={color} background={background} variant={variant}>
           Notr Button
         </Button>
       </div>

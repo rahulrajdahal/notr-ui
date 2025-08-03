@@ -1,5 +1,5 @@
 {
-  "name": "@rahulrajdahal/notr-rollup",
+  "name": "@rahulrajdahal/notr-rollup-plugins",
   "version": "0.0.0",
   "description": "a utility containing rollup plugins to build notr-ui package",
   "author": "Rahul Raj Dahal",

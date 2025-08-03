@@ -3,30 +3,15 @@
 
 Notr Button
 
+## Usage
+
 ```tsx
 import Button from '@rahulrajdahal/notr-button'
 
 return <Button>Notr Button</Button>
 ```
 
-------------------------
-<div ref="el" />
-
-<script setup>
-import { createElement } from 'react'
-import { createRoot } from 'react-dom/client'
-import { ref, onMounted } from 'vue'
-import Container from './Container.tsx'
-import Button from '@rahulrajdahal/notr-button'
-
-const el = ref()
-onMounted(() => {
-  const root = createRoot(el.value)
-  root.render(createElement(Container))
-})
-
-</script>
-----
+## Props
 
 <table>
 <thead>
@@ -64,3 +49,22 @@ onMounted(() => {
 </tr>
 </tbody>
 </table>
+
+## Example
+
+<div ref="el" />
+
+<script setup>
+import { createElement } from 'react'
+import { createRoot } from 'react-dom/client'
+import { ref, onMounted } from 'vue'
+import ButtonContainer from './ButtonContainer.tsx'
+import Button from '@rahulrajdahal/notr-button'
+
+const el = ref()
+onMounted(() => {
+  const root = createRoot(el.value)
+  root.render(createElement(ButtonContainer))
+})
+
+</script>

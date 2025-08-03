@@ -12,7 +12,9 @@
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "next": "15.4.5",
-    "@rahulrajdahal/notr-button": "workspace:*"
+    "@rahulrajdahal/notr-button": "workspace:*",
+    "@rahulrajdahal/notr-input": "workspace:*",
+    "@rahulrajdahal/notr-core": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5",

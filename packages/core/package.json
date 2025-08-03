@@ -17,7 +17,8 @@
   "peerDependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "@rahulrajdahal/notr-rollup": "workspace:*"
+    "@rahulrajdahal/notr-ts-config": "workspace:*",
+    "@rahulrajdahal/notr-rollup-plugins": "workspace:*"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.6",

@@ -28,6 +28,7 @@
     "turbo": "latest",
     "vitepress": "^1.6.3",
     "@rahulrajdahal/notr-button": "workspace:*",
+    "@rahulrajdahal/notr-input": "workspace:*",
     "@rahulrajdahal/notr-core": "workspace:*"
   },
   "dependencies": {

@@ -6,7 +6,7 @@
     "typeRoots": ["./node_modules/@types"],
     "types": ["jest"],
     "paths": {
-      "@rahulrajdahal/notr-button/*": ["src/*"]
+      "@rahulrajdahal/notr-input/*": ["src/*"]
     }
   },
   "include": ["src/**/*", "src/styles.d.ts"],

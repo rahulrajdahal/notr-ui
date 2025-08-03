@@ -1,7 +1,7 @@
 {
-  "name": "@rahulrajdahal/notr-button",
+  "name": "@rahulrajdahal/notr-input",
   "version": "0.0.0",
-  "description": "Button component for notr app",
+  "description": "Input component for notr app",
   "main": "./dist/cjs/index.js",
   "module": "./dist/es/index.mjs",
   "types": "./dist/index.d.ts",
@@ -11,8 +11,8 @@
   ],
   "keywords": [
     "notr-ui",
-    "notr-button",
-    "button component",
+    "notr-input",
+    "input component",
     "notr"
   ],
   "author": "Rahul Raj Dahal",

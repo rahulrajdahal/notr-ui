@@ -6,7 +6,7 @@ import {
   pluginDelete,
   terser,
   typescriptConfig,
-} from "@rahulrajdahal/notr-rollup";
+} from "@rahulrajdahal/notr-rollup-plugins";
 import packageJson from "./package.json" with { type: "json" };
 
 export default [
