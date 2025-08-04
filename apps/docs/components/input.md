@@ -28,7 +28,6 @@ import { createElement } from 'react'
 import { createRoot } from 'react-dom/client'
 import { ref, onMounted } from 'vue'
 import InputContainer from './InputContainer.tsx'
-import Input from '@rahulrajdahal/notr-input'
 
 const el = ref()
 onMounted(() => {

@@ -29,6 +29,7 @@ export default defineConfig({
           { text: "Button", link: "/components/button" },
           { text: "Debounce Input", link: "/components/debounce-input" },
           { text: "Input", link: "/components/input" },
+          { text: "Password Input", link: "/components/passwordInput" },
         ],
       },
     ],

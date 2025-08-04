@@ -14,6 +14,7 @@
     "next": "15.4.5",
     "@rahulrajdahal/notr-button": "workspace:*",
     "@rahulrajdahal/notr-input": "workspace:*",
+    "@rahulrajdahal/notr-passwordInput": "workspace:*",
     "@rahulrajdahal/notr-debounceInput": "workspace:*",
     "@rahulrajdahal/notr-core": "workspace:*"
   },

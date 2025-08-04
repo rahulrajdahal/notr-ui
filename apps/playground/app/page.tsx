@@ -4,6 +4,7 @@ import Button from "@rahulrajdahal/notr-button";
 import { colors } from "@rahulrajdahal/notr-core";
 import DebounceInput from "@rahulrajdahal/notr-debounceInput";
 import Input from "@rahulrajdahal/notr-input";
+import PasswordInput from "@rahulrajdahal/notr-passwordInput";
 import { useState } from "react";
 
 export default function Page() {
@@ -56,6 +57,41 @@ export default function Page() {
           />
           <Input
             label="Notr Input with inputProps"
+            inputProps={{
+              title: "Notr Custom Input Props",
+              placeholder: "Input Props",
+            }}
+          />
+        </div>
+      </div>
+
+      <div className="flex flex-col gap-4 mt-12">
+        <h2 className="text-3xl font-semibold">Notr Password Inputs</h2>
+
+        <div className="flex gap-4 flex-wrap">
+          <PasswordInput label="Notr Password Input" />
+          <PasswordInput
+            label="Notr Password Input With Forgot Password"
+            forgotPassword={{ href: "./forgot-password" }}
+          />
+          <PasswordInput
+            label="Notr Password Input with errors"
+            errors={["Invalid Input", "Required"]}
+          />
+          <PasswordInput
+            label="Notr Password Input with forgotPassword and errors"
+            forgotPassword={{ href: "./forgot-password" }}
+            errors={["Invalid Input", "Required"]}
+          />
+          <PasswordInput
+            label="Notr Password Input with labelProps"
+            labelProps={{
+              title: "Notr Custom Label Props",
+              style: { color: colors.primary[600] },
+            }}
+          />
+          <PasswordInput
+            label="Notr Password Input with inputProps"
             inputProps={{
               title: "Notr Custom Input Props",
               placeholder: "Input Props",
