@@ -1,11 +1,17 @@
 
-> playground@0.1.0 build D:\programming\notr-ui\apps\playground
+> playground@0.1.1 build /home/runner/work/notr-ui/notr-ui/apps/playground
 > next build
+
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
 
    ▲ Next.js 15.4.5
 
    Creating an optimized production build ...
- ✓ Compiled successfully in 6.0s
+ ✓ Compiled successfully in 11.0s
    Linting and checking validity of types ...
    Collecting page data ...
    Generating static pages (0/6) ...
@@ -17,13 +23,13 @@
    Collecting build traces ...
 
 Route (app)                                 Size  First Load JS
-┌ ○ /                                    3.43 kB         485 kB
-├ ○ /_not-found                            996 B         101 kB
-└ ○ /ui                                  3.43 kB         485 kB
+┌ ○ /                                    3.42 kB         485 kB
+├ ○ /_not-found                            995 B         101 kB
+└ ○ /ui                                  3.42 kB         485 kB
 + First Load JS shared by all             100 kB
-  ├ chunks/852-2120659f9664b099.js       43.9 kB
-  ├ chunks/b12fa0b3-2db5a15fff3d4d07.js  54.1 kB
-  └ other shared chunks (total)          1.99 kB
+  ├ chunks/820-b0ea486e60e37c4b.js         44 kB
+  ├ chunks/96489dd9-bb1e8d500d524cfe.js  54.1 kB
+  └ other shared chunks (total)          1.93 kB
 
 
 ○  (Static)  prerendered as static content
