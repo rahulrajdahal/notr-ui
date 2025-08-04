@@ -1,0 +1,26 @@
+{
+  "name": "@rahulrajdahal/notr-core",
+  "version": "0.0.1",
+  "description": "utilities for notr-ui",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/es/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "prepublishOnly": "pnpm run build"
+  },
+  "devDependencies": {
+    "rollup": "^4.46.2"
+  },
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "@rahulrajdahal/notr-ts-config": "workspace:*",
+    "@rahulrajdahal/notr-rollup-plugins": "workspace:*"
+  }
+}

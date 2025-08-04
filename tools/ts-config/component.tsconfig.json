@@ -1,0 +1,8 @@
+{
+  "extends": "./base.tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "types": ["jest"]
+  }
+}

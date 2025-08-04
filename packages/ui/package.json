@@ -1,0 +1,46 @@
+{
+  "name": "@rahulrajdahal/notr-ui",
+  "version": "0.0.1",
+  "description": "UI components for notr app",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/es/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "notr-ui",
+    "notr-pill",
+    "ui component",
+    "ui components",
+    "notr ui components",
+    "notr"
+  ],
+  "author": "Rahul Raj Dahal",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "@rahulrajdahal/notr-core": "workspace:*",
+    "@rahulrajdahal/notr-rollup-plugins": "workspace:*",
+    "@rahulrajdahal/notr-ts-config": "workspace:*",
+    "@rahulrajdahal/notr-button": "workspace:*",
+    "@rahulrajdahal/notr-input": "workspace:*",
+    "@rahulrajdahal/notr-debounceInput": "workspace:*",
+    "@rahulrajdahal/notr-passwordInput": "workspace:*",
+    "@rahulrajdahal/notr-pill": "workspace:*",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19",
+    "rollup": "^4.46.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "@rahulrajdahal/notr-ts-config/base.tsconfig.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "outDir": "dist",
+    "rootDir": "src",
+    "paths": {
+      "@rahulrajdahal/notr-core/*": ["src/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
+}

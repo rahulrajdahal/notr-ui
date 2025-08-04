@@ -1,13 +1,50 @@
 {
   "name": "notr-ui",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "tools/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "turbo run dev --parallel",
+    "build:test": "turbo run build:test",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "publish": "changeset publish",
+    "storybook": "storybook dev -p 6006 -c apps/.storybook",
+    "build-storybook": "storybook build",
+    "docs:dev": "vitepress dev apps/docs",
+    "docs:build": "vitepress build apps/docs",
+    "docs:preview": "vitepress preview apps/docs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "latest",
+    "@chromatic-com/storybook": "^4.1.0",
+    "@rahulrajdahal/notr-button": "workspace:*",
+    "@rahulrajdahal/notr-core": "workspace:*",
+    "@rahulrajdahal/notr-input": "workspace:*",
+    "@rahulrajdahal/notr-passwordInput": "workspace:*",
+    "@rahulrajdahal/notr-debounceInput": "workspace:*",
+    "@rahulrajdahal/notr-pill": "workspace:*",
+    "@meistericons/react": "^0.22.1",
+    "@storybook/addon-a11y": "9.1.0",
+    "@storybook/addon-docs": "^9.1.0",
+    "@storybook/react-vite": "^9.1.0",
+    "prop-types": "^15.8.1",
+    "storybook": "^9.1.0",
+    "turbo": "latest",
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.6.4",
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "vitest": "^3.2.4"
+  },
   "packageManager": "pnpm@10.6.5"
 }

@@ -1,0 +1,13 @@
+{
+  "extends": "@rahulrajdahal/notr-ts-config/component.tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "typeRoots": ["./node_modules/@types"],
+    "paths": {
+      "@rahulrajdahal/notr-input/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
