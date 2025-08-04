@@ -9,20 +9,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Configure Identity
-        run: |
-          git config --global user.email "rahulrajdahal@gmail.com"
-          git config --global user.name "Rahul Raj Dahal"
       - uses: actions/setup-node@v4
         with:
-          registry-url: "https://registry.npmjs.org"
           node-version: 20
+          registry-url: "https://registry.npmjs.org"
       - uses: pnpm/action-setup@v4
       - run: pnpm install
       - run: pnpm run build
+      - name: Create .npmrc
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
+          echo "registry=https://registry.npmjs.org/" >> .npmrc
       - run: npx changeset version
-      - run: git add -A && git commit -m 'version packages'
+      - name: Commit version changes
+        run: |
+          git config --global user.name "Rahul Raj Dahal"
+          git config --global user.email "rahulrajdahal@gmail.com"
+          git add -A
+          git commit -m 'version packages'
+          git push
       - run: npx changeset publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-      - run: git push -follow-tags
