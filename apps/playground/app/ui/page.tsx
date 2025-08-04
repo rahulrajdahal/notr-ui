@@ -1,21 +1,23 @@
 "use client";
 
 import { CheckSquare } from "@meistericons/react";
-import { Button } from "@rahulrajdahal/notr-button";
-import { colors } from "@rahulrajdahal/notr-core";
-import { DebounceInput } from "@rahulrajdahal/notr-debounceInput";
-import { Input } from "@rahulrajdahal/notr-input";
-import { PasswordInput } from "@rahulrajdahal/notr-passwordInput";
-import { Pill } from "@rahulrajdahal/notr-pill";
+import {
+  Button,
+  colors,
+  DebounceInput,
+  Input,
+  PasswordInput,
+  Pill,
+} from "@rahulrajdahal/notr-ui";
 import { useState } from "react";
 
-export default function Page() {
+export default function page() {
   const [debounceValue, setDebounceValue] = useState("");
   const [debounceValue2, setDebounceValue2] = useState("");
 
   return (
     <main className="px-[12.5%] py-12">
-      <h1 className="text-5xl font-bold">Notr Playground</h1>
+      <h1 className="text-5xl font-bold">Notr UI Components</h1>
 
       <div className="flex flex-col gap-4 mt-12">
         <h2 className="text-3xl font-semibold">Notr Buttons</h2>

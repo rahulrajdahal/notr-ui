@@ -1,0 +1,14 @@
+{
+  "extends": "@rahulrajdahal/notr-ts-config/base.tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "jsx": "react-jsx",
+    "rootDir": "src",
+    "typeRoots": ["./node_modules/@types"],
+    "paths": {
+      "@rahulrajdahal/notr-ui/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*", "src/styles.d.ts"],
+  "exclude": ["node_modules"]
+}
