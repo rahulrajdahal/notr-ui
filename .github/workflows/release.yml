@@ -15,6 +15,7 @@ jobs:
           git config --global user.name "Rahul Raj Dahal"
       - uses: actions/setup-node@v4
         with:
+          registry-url: "https://registry.npmjs.org"
           node-version: 20
       - uses: pnpm/action-setup@v4
       - run: pnpm install
