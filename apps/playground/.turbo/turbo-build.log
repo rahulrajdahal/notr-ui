@@ -5,15 +5,26 @@
    ▲ Next.js 15.4.5
 
    Creating an optimized production build ...
- ✓ Compiled successfully in 11.0s
+ ✓ Compiled successfully in 6.0s
    Linting and checking validity of types ...
    Collecting page data ...
-[Error: Failed to collect configuration for /ui] {
-  [cause]: TypeError: e.createContext is not a function
-      at 4889 (D:\programming\notr-ui\apps\playground\.next\server\app\ui\page.js:1:17191)
-      at Function.c (D:\programming\notr-ui\apps\playground\.next\server\webpack-runtime.js:1:127)
-}
+   Generating static pages (0/6) ...
+   Generating static pages (1/6) 
+   Generating static pages (2/6) 
+   Generating static pages (4/6) 
+ ✓ Generating static pages (6/6)
+   Finalizing page optimization ...
+   Collecting build traces ...
 
-> Build error occurred
-[Error: Failed to collect page data for /ui] { type: 'Error' }
- ELIFECYCLE  Command failed with exit code 1.
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    3.43 kB         485 kB
+├ ○ /_not-found                            996 B         101 kB
+└ ○ /ui                                  3.43 kB         485 kB
++ First Load JS shared by all             100 kB
+  ├ chunks/852-2120659f9664b099.js       43.9 kB
+  ├ chunks/b12fa0b3-2db5a15fff3d4d07.js  54.1 kB
+  └ other shared chunks (total)          1.99 kB
+
+
+○  (Static)  prerendered as static content
+

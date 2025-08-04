@@ -1,29 +1,46 @@
 
 > @rahulrajdahal/notr-passwordInput@0.0.0 build D:\programming\notr-ui\packages\passwordInput
-> pnpm run test:once && rollup -c
-
-
-> @rahulrajdahal/notr-passwordInput@0.0.0 test:once D:\programming\notr-ui\packages\passwordInput
-> vitest run
-
-
-[1m[46m RUN [49m[22m [36mv3.2.4 [39m[90mD:/programming/notr-ui/packages/passwordInput[39m
-
-[90mstderr[2m | src/PasswordInput.test.tsx[2m > [22m[2mPasswordInput Component[2m > [22m[2mrenders with default props and styles
-[22m[39mReact does not recognize the `forgotPassword` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `forgotpassword` instead. If you accidentally passed it from a parent component, remove it from the DOM element.
-
- [32m✓[39m src/PasswordInput.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 562[2mms[22m[39m
-   [33m[2m✓[22m[39m PasswordInput Component[2m > [22mrenders with default props and styles [33m 332[2mms[22m[39m
-
-[2m  Snapshots [22m [1m[32m7 written[39m[22m
-[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
-[2m      Tests [22m [1m[32m3 passed[39m[22m[90m (3)[39m
-[2m   Start at [22m 01:06:47
-[2m   Duration [22m 6.06s[2m (transform 345ms, setup 539ms, collect 1.22s, tests 562ms, environment 1.84s, prepare 720ms)[22m
+> rollup -c
 
 [36m
 [1msrc/index.ts[22m → [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m...[39m
-[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m10.7s[22m[39m
+[1m[33m(!) [plugin typescript] src/PasswordInput.tsx (4:33): @rollup/plugin-typescript TS2307: Cannot find module '@rahulrajdahal/notr-input' or its corresponding type declarations.[39m[22m
+[1mD:/programming/notr-ui/packages/passwordInput/src/PasswordInput.tsx:4:33[22m
+[90m
+[7m4[0m import { type InputProps } from "@rahulrajdahal/notr-input";
+[7m [0m [91m                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[39m
+[1m[33m(!) [plugin typescript] src/PasswordInput.tsx (90:6): @rollup/plugin-typescript TS2339: Property 'label' does not exist on type 'PasswordInputProps'.[39m[22m
+[1mD:/programming/notr-ui/packages/passwordInput/src/PasswordInput.tsx:90:6[22m
+[90m
+[7m90[0m   ({ label, errors, labelProps, inputProps, ...props }, ref) => {
+[7m  [0m [91m     ~~~~~[0m
+[39m
+[1m[33m(!) [plugin typescript] src/PasswordInput.tsx (90:13): @rollup/plugin-typescript TS2339: Property 'errors' does not exist on type 'PasswordInputProps'.[39m[22m
+[1mD:/programming/notr-ui/packages/passwordInput/src/PasswordInput.tsx:90:13[22m
+[90m
+[7m90[0m   ({ label, errors, labelProps, inputProps, ...props }, ref) => {
+[7m  [0m [91m            ~~~~~~[0m
+[39m
+[1m[33m(!) [plugin typescript] src/PasswordInput.tsx (90:21): @rollup/plugin-typescript TS2339: Property 'labelProps' does not exist on type 'PasswordInputProps'.[39m[22m
+[1mD:/programming/notr-ui/packages/passwordInput/src/PasswordInput.tsx:90:21[22m
+[90m
+[7m90[0m   ({ label, errors, labelProps, inputProps, ...props }, ref) => {
+[7m  [0m [91m                    ~~~~~~~~~~[0m
+[39m
+[1m[33m(!) [plugin typescript] src/PasswordInput.tsx (90:33): @rollup/plugin-typescript TS2339: Property 'inputProps' does not exist on type 'PasswordInputProps'.[39m[22m
+[1mD:/programming/notr-ui/packages/passwordInput/src/PasswordInput.tsx:90:33[22m
+[90m
+[7m90[0m   ({ label, errors, labelProps, inputProps, ...props }, ref) => {
+[7m  [0m [91m                                ~~~~~~~~~~[0m
+[39m
+[1m[33m(!) [plugin typescript] src/PasswordInput.tsx (151:23): @rollup/plugin-typescript TS7006: Parameter 'error' implicitly has an 'any' type.[39m[22m
+[1mD:/programming/notr-ui/packages/passwordInput/src/PasswordInput.tsx:151:23[22m
+[90m
+[7m151[0m           errors.map((error) => (
+[7m   [0m [91m                      ~~~~~[0m
+[39m
+[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m12.5s[22m[39m
 [36m
 [1msrc/index.ts[22m → [1m./dist/index.d.ts[22m...[39m
-[32mcreated [1m./dist/index.d.ts[22m in [1m3.5s[22m[39m
+[32mcreated [1m./dist/index.d.ts[22m in [1m1s[22m[39m

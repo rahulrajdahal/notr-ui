@@ -5,7 +5,7 @@
 Notr Input
 
 ```tsx
-import Input from "@rahulrajdahal/notr-input";
+import { Input } from "@rahulrajdahal/notr-input";
 
 return <Input label="Notr Input" />;
 ```

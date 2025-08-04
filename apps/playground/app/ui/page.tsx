@@ -11,7 +11,7 @@ import {
 } from "@rahulrajdahal/notr-ui";
 import { useState } from "react";
 
-export default function page() {
+export default function Page() {
   const [debounceValue, setDebounceValue] = useState("");
   const [debounceValue2, setDebounceValue2] = useState("");
 

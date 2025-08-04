@@ -1,4 +1,3 @@
-
 # Button
 
 Notr Button
@@ -6,9 +5,9 @@ Notr Button
 ## Usage
 
 ```tsx
-import Button from '@rahulrajdahal/notr-button'
+import { Button } from "@rahulrajdahal/notr-button";
 
-return <Button>Notr Button</Button>
+return <Button>Notr Button</Button>;
 ```
 
 ## Props
@@ -60,7 +59,6 @@ import { createElement } from 'react'
 import { createRoot } from 'react-dom/client'
 import { ref, onMounted } from 'vue'
 import ButtonContainer from './ButtonContainer.tsx'
-import Button from '@rahulrajdahal/notr-button'
 
 const el = ref()
 onMounted(() => {

@@ -1,6 +1,6 @@
 import { CheckSquare } from "@meistericons/react";
 import { colors } from "@rahulrajdahal/notr-core";
-import Pill from "@rahulrajdahal/notr-pill";
+import { Pill } from "@rahulrajdahal/notr-pill";
 import React from "react";
 
 export default function PillContainer() {

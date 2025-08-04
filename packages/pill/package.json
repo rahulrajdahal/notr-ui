@@ -24,7 +24,8 @@
     "test:coverage": "vitest run --coverage",
     "test:ui": "vitest --ui",
     "dev": "rollup -c -w",
-    "build": "pnpm run test:once && rollup -c"
+    "build:test": "pnpm run test:once && rollup -c",
+    "build": "rollup -c"
   },
   "peerDependencies": {
     "@emotion/react": "^11.14.0",

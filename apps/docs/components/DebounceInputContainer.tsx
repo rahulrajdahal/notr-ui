@@ -1,4 +1,4 @@
-import DebounceInput from "@rahulrajdahal/notr-debounceInput";
+import { DebounceInput } from "@rahulrajdahal/notr-debounceInput";
 import React from "react";
 
 export default function DebounceInputContainer() {

@@ -5,7 +5,7 @@ Notr Pill
 ## Usage
 
 ```tsx
-import Pill from "@rahulrajdahal/notr-pill";
+import { Pill } from "@rahulrajdahal/notr-pill";
 
 return <Pill text="Completed" count={3} />;
 ```

@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Notr UI"
   text: "UI kits for Notr app"
-  tagline: My great project tagline
+  tagline: Update your website with awesome notr-ui components today.
   actions:
     - theme: brand
       text: Get Started
@@ -15,11 +15,8 @@ hero:
       link: /components/button
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Utilities
+    details: Explore various utilities notr-ui has to provide
+  - title: Components
+    details: Beautifully curated UI components for you.
 ---
-

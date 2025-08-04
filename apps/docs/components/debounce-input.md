@@ -5,18 +5,18 @@
 Notr Debounce Input
 
 ```tsx
-import DebounceInput from "@rahulrajdahal/notr-debounceInput";
+import { DebounceInput } from "@rahulrajdahal/notr-debounceInput";
 
 return <DebounceInput value="" onChange={(value) => console.log(value)} />;
 ```
 
 ## Props
 
-| Props    |   Type   | Default |
-| -------- | :------: | ------: |
+| Props    |    Type    | Default |
+| -------- | :--------: | ------: |
 | value    |  `string`  |       - |
 | onChange | `function` |       - |
-| delay | `number` |       500 |
+| delay    |  `number`  |     500 |
 
 ## Example
 
@@ -27,7 +27,7 @@ import { createElement } from 'react'
 import { createRoot } from 'react-dom/client'
 import { ref, onMounted } from 'vue'
 import DebounceInputContainer from './DebounceInputContainer.tsx'
-import Input from '@rahulrajdahal/notr-input'
+
 
 const el = ref()
 onMounted(() => {

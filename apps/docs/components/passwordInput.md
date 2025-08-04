@@ -5,7 +5,7 @@
 Notr Password Input
 
 ```tsx
-import PasswordInput from "@rahulrajdahal/notr-passwordInput";
+import { PasswordInput } from "@rahulrajdahal/notr-passwordInput";
 
 return <PasswordInput label="Notr Password Input" />;
 ```

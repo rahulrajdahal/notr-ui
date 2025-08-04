@@ -8,9 +8,12 @@
     "tools/*"
   ],
   "scripts": {
-    "build": "turbo run build",
     "dev": "turbo run dev --parallel",
+    "build:test": "turbo run build:test",
+    "build": "turbo run build",
     "lint": "turbo run lint",
+    "changeset": "changeset",
+    "version": "changeset version",
     "publish": "changeset publish",
     "storybook": "storybook dev -p 6006 -c apps/.storybook",
     "build-storybook": "storybook build",

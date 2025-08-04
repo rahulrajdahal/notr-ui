@@ -1,4 +1,4 @@
-import Button from "@rahulrajdahal/notr-button";
+import { Button } from "@rahulrajdahal/notr-button";
 import { colors } from "@rahulrajdahal/notr-core";
 import React from "react";
 

@@ -5,20 +5,11 @@ export default defineConfig({
   title: "Notr UI",
   description: "UI kits for Notr app",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "Components", link: "/components/button" },
     ],
-
     sidebar: [
-      {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
       {
         text: "Core",
         items: [{ text: "Colors", link: "/core/colors" }],
@@ -36,7 +27,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/rahulrajdahal/notr-ui" },
     ],
   },
 });

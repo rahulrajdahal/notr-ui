@@ -1,4 +1,4 @@
-import Input from "@rahulrajdahal/notr-input";
+import { Input } from "@rahulrajdahal/notr-input";
 import React from "react";
 
 export default function InputContainer() {

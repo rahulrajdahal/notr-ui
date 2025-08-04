@@ -1,25 +1,10 @@
 
 > @rahulrajdahal/notr-input@0.0.0 build D:\programming\notr-ui\packages\input
-> pnpm run test:once && rollup -c
-
-
-> @rahulrajdahal/notr-input@0.0.0 test:once D:\programming\notr-ui\packages\input
-> vitest run
-
-
-[1m[46m RUN [49m[22m [36mv3.2.4 [39m[90mD:/programming/notr-ui/packages/input[39m
-
- [32m✓[39m src/Input.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 376[2mms[22m[39m
-
-[2m  Snapshots [22m [1m[32m5 written[39m[22m
-[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
-[2m      Tests [22m [1m[32m4 passed[39m[22m[90m (4)[39m
-[2m   Start at [22m 01:06:48
-[2m   Duration [22m 6.84s[2m (transform 351ms, setup 982ms, collect 919ms, tests 376ms, environment 2.61s, prepare 952ms)[22m
+> rollup -c
 
 [36m
 [1msrc/index.ts[22m → [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m...[39m
-[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m11.7s[22m[39m
+[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m9.9s[22m[39m
 [36m
 [1msrc/index.ts[22m → [1m./dist/index.d.ts[22m...[39m
 [32mcreated [1m./dist/index.d.ts[22m in [1m1.7s[22m[39m
