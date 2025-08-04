@@ -7,6 +7,9 @@
     "apps/*",
     "tools/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "turbo run dev --parallel",
     "build:test": "turbo run build:test",
