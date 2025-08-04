@@ -9,6 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Configure Identity
+        run: |
+          git config --global user.email "rahulrajdahal@gmail.com"
+          git config --global user.name "Rahul Raj Dahal"
       - uses: actions/setup-node@v4
         with:
           node-version: 20
