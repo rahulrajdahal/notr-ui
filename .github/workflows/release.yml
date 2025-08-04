@@ -12,8 +12,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm ci
-      - run: npm run build
+      - run: pnpm ci
+      - run: pnpm run build
       - run: npx changeset version
       - run: git add -A && git commit -m 'version packages'
       - run: npx changeset publish
