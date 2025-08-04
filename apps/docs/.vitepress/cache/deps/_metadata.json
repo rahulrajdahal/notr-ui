@@ -1,55 +1,55 @@
 {
-  "hash": "6efa1a5f",
+  "hash": "e74fb06c",
   "configHash": "44c292b9",
-  "lockfileHash": "aa43d2b8",
-  "browserHash": "fd181497",
+  "lockfileHash": "369f1a75",
+  "browserHash": "8dda7651",
   "optimized": {
     "vue": {
       "src": "../../../../../node_modules/.pnpm/vue@3.5.18_typescript@5.9.2/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "207ebadf",
+      "fileHash": "d8ddee4e",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../../node_modules/.pnpm/@vue+devtools-api@7.7.7/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "5ca55917",
+      "fileHash": "62644e90",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../../node_modules/.pnpm/@vueuse+core@12.8.2_typescript@5.9.2/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "30c46951",
+      "fileHash": "9fc5725c",
       "needsInterop": false
     },
     "react": {
       "src": "../../../../../node_modules/.pnpm/react@19.1.0/node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "f939327d",
+      "fileHash": "0fb2b2a6",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../../../../node_modules/.pnpm/react-dom@19.1.0_react@19.1.0/node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "3044958d",
+      "fileHash": "477e0e81",
       "needsInterop": true
     },
     "@emotion/react/jsx-runtime": {
       "src": "../../../../../node_modules/.pnpm/@emotion+react@11.14.0_@types+react@19.1.9_react@19.1.0/node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.browser.development.esm.js",
       "file": "@emotion_react_jsx-runtime.js",
-      "fileHash": "977cb12a",
+      "fileHash": "effa4b19",
       "needsInterop": false
     },
     "@emotion/react": {
       "src": "../../../../../node_modules/.pnpm/@emotion+react@11.14.0_@types+react@19.1.9_react@19.1.0/node_modules/@emotion/react/dist/emotion-react.browser.development.esm.js",
       "file": "@emotion_react.js",
-      "fileHash": "b49167bd",
+      "fileHash": "88688e2e",
       "needsInterop": false
     },
     "@meistericons/react": {
       "src": "../../../../../node_modules/.pnpm/@meistericons+react@0.22.1__4a4cd1ba51a90be0a687c780959c0f63/node_modules/@meistericons/react/lib/esm/meistericons-react.js",
       "file": "@meistericons_react.js",
-      "fileHash": "e1f3a38b",
+      "fileHash": "e9cd786a",
       "needsInterop": false
     }
   },

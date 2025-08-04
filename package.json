@@ -26,6 +26,8 @@
     "@rahulrajdahal/notr-input": "workspace:*",
     "@rahulrajdahal/notr-passwordInput": "workspace:*",
     "@rahulrajdahal/notr-debounceInput": "workspace:*",
+    "@rahulrajdahal/notr-pill": "workspace:*",
+    "@meistericons/react": "^0.22.1",
     "@storybook/addon-a11y": "9.1.0",
     "@storybook/addon-docs": "^9.1.0",
     "@storybook/react-vite": "^9.1.0",

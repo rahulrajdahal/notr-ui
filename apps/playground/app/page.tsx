@@ -1,10 +1,12 @@
 "use client";
 
+import { CheckSquare } from "@meistericons/react";
 import Button from "@rahulrajdahal/notr-button";
 import { colors } from "@rahulrajdahal/notr-core";
 import DebounceInput from "@rahulrajdahal/notr-debounceInput";
 import Input from "@rahulrajdahal/notr-input";
 import PasswordInput from "@rahulrajdahal/notr-passwordInput";
+import Pill from "@rahulrajdahal/notr-pill";
 import { useState } from "react";
 
 export default function Page() {
@@ -125,6 +127,21 @@ export default function Page() {
               debounce: <span className="italic"> {debounceValue2}</span>
             </p>
           </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col gap-4 mt-12">
+        <h2 className="text-3xl font-semibold">Notr Pill</h2>
+
+        <div className="flex gap-8 w-full">
+          <Pill text={"Pill"} count={3} />
+          <Pill
+            background={colors.gray[400]}
+            color={colors.gray[600]}
+            text={"Pill Icon"}
+            icon={<CheckSquare />}
+            count={3}
+          />
         </div>
       </div>
     </main>
