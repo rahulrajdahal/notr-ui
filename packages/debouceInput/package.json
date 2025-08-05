@@ -1,5 +1,5 @@
 {
-  "name": "@rahulrajdahal/notr-debounceInput",
+  "name": "@rahulrajdahal/notr-debounce-input",
   "version": "0.0.1",
   "description": "Debounce input component for notr app",
   "main": "./dist/cjs/index.js",
@@ -11,10 +11,13 @@
   ],
   "keywords": [
     "notr-ui",
-    "notr-debounceInput",
-    "debounceInput component",
+    "notr-debounce-input",
+    "debounce-input component",
     "notr"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Rahul Raj Dahal",
   "license": "MIT",
   "scripts": {

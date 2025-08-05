@@ -1,18 +1,21 @@
 {
-  "name": "@rahulrajdahal/notr-passwordInput",
+  "name": "@rahulrajdahal/notr-password-input",
   "version": "0.0.1",
-  "description": "PasswordInput component for notr app",
+  "description": "Password Input component for notr app",
   "main": "./dist/cjs/index.js",
   "module": "./dist/es/index.mjs",
   "types": "./dist/index.d.ts",
   "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist"
   ],
   "keywords": [
     "notr-ui",
-    "notr-passwordInput",
-    "passwordInput component",
+    "notr-password-input",
+    "password-input component",
     "notr"
   ],
   "author": "Rahul Raj Dahal",

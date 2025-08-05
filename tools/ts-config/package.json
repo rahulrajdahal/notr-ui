@@ -1,6 +1,9 @@
 {
   "name": "@rahulrajdahal/notr-ts-config",
   "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "typescript configuration for notr ui packages",
   "license": "MIT"
 }

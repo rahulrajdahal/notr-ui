@@ -19,6 +19,9 @@
   ],
   "author": "Rahul Raj Dahal",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c"
