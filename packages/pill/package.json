@@ -2,6 +2,9 @@
   "name": "@rahulrajdahal/notr-pill",
   "version": "0.0.1",
   "description": "Pill component for notr app",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/cjs/index.js",
   "module": "./dist/es/index.mjs",
   "types": "./dist/index.d.ts",
@@ -16,9 +19,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "keywords": [
     "notr-ui",
     "notr-pill",

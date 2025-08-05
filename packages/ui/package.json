@@ -2,6 +2,9 @@
   "name": "@rahulrajdahal/notr-ui",
   "version": "0.0.1",
   "description": "UI components for notr app",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/cjs/index.js",
   "module": "./dist/es/index.mjs",
   "types": "./dist/index.d.ts",
@@ -26,9 +29,6 @@
   ],
   "author": "Rahul Raj Dahal",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c"

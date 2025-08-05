@@ -5,7 +5,7 @@
     "rootDir": "src",
     "typeRoots": ["./node_modules/@types"],
     "paths": {
-      "@rahulrajdahal/notr-input/*": ["src/*"]
+      "@rahulrajdahal/notr-password-input/*": ["src/*"]
     }
   },
   "include": ["src/**/*"],

@@ -2,13 +2,16 @@
   "name": "@rahulrajdahal/notr-core",
   "version": "0.0.1",
   "description": "utilities for notr-ui",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/cjs/index.js",
   "module": "./dist/es/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/cjs/index.js",
       "import": "./dist/es/index.mjs",
+      "require": "./dist/cjs/index.js",
       "types": "./dist/index.d.ts"
     }
   },
@@ -16,13 +19,9 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "dev": "rollup -c -w",
-    "build": "rollup -c",
-    "prepublishOnly": "pnpm run build"
+    "build": "rollup -c"
   },
   "devDependencies": {
     "rollup": "^4.46.2"

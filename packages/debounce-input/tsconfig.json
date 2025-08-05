@@ -5,7 +5,7 @@
     "rootDir": "src",
     "typeRoots": ["./node_modules/@types"],
     "paths": {
-      "@rahulrajdahal/notr-debounceInput/*": ["src/*"]
+      "@rahulrajdahal/notr-debounce-input/*": ["src/*"]
     }
   },
   "include": ["src/**/*", "src/styles.d.ts"],
