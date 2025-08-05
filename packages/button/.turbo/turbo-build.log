@@ -1,10 +1,10 @@
 
-> @rahulrajdahal/notr-button@0.0.6 build D:\programming\notr-ui\packages\button
+> @rahulrajdahal/notr-button@0.0.6 build /home/runner/work/notr-ui/notr-ui/packages/button
 > rollup -c
 
 [36m
 [1msrc/index.ts[22m → [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m...[39m
-[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m5.4s[22m[39m
+[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m5.7s[22m[39m
 [36m
 [1msrc/index.ts[22m → [1m./dist/index.d.ts[22m...[39m
-[32mcreated [1m./dist/index.d.ts[22m in [1m1.3s[22m[39m
+[32mcreated [1m./dist/index.d.ts[22m in [1m1.1s[22m[39m
