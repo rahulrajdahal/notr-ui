@@ -4,7 +4,7 @@
 
 [36m
 [1msrc/index.ts[22m → [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m...[39m
-[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m882ms[22m[39m
+[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m925ms[22m[39m
 [36m
 [1msrc/index.ts[22m → [1m./dist/index.d.ts[22m...[39m
-[32mcreated [1m./dist/index.d.ts[22m in [1m418ms[22m[39m
+[32mcreated [1m./dist/index.d.ts[22m in [1m441ms[22m[39m
