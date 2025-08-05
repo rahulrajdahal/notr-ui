@@ -1,16 +1,10 @@
 
-> @rahulrajdahal/notr-button@0.0.5 build /home/runner/work/notr-ui/notr-ui/packages/button
+> @rahulrajdahal/notr-button@0.0.5 build D:\programming\notr-ui\packages\button
 > rollup -c
 
 [36m
 [1msrc/index.ts[22m → [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m...[39m
-[1m[33m(!) [plugin typescript] src/Button.tsx (2:24): @rollup/plugin-typescript TS2307: Cannot find module '@rahulrajdahal/notr-core' or its corresponding type declarations.[39m[22m
-[1m/home/runner/work/notr-ui/notr-ui/packages/button/src/Button.tsx:2:24[22m
-[90m
-[7m2[0m import { colors } from "@rahulrajdahal/notr-core";
-[7m [0m [91m                       ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
-[39m
-[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m9.6s[22m[39m
+[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m7.3s[22m[39m
 [36m
 [1msrc/index.ts[22m → [1m./dist/index.d.ts[22m...[39m
-[32mcreated [1m./dist/index.d.ts[22m in [1m1.7s[22m[39m
+[32mcreated [1m./dist/index.d.ts[22m in [1m820ms[22m[39m

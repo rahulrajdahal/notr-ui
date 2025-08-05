@@ -92,6 +92,7 @@ const Input = React.forwardRef<HTMLFieldSetElement, PasswordInputProps>(
 
     return (
       <fieldset
+        ref={ref}
         style={
           {
             "--color-primary-600": colors.primary[600],

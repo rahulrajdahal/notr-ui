@@ -1,6 +1,6 @@
 {
   "name": "@rahulrajdahal/notr-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "UI components for notr app",
   "publishConfig": {
     "access": "public"
@@ -33,7 +33,7 @@
     "dev": "rollup -c -w",
     "build": "rollup -c"
   },
-  "peerDependencies": {
+  "dependencies": {
     "@rahulrajdahal/notr-core": "workspace:*",
     "@rahulrajdahal/notr-rollup-plugins": "workspace:*",
     "@rahulrajdahal/notr-ts-config": "workspace:*",
@@ -41,7 +41,9 @@
     "@rahulrajdahal/notr-input": "workspace:*",
     "@rahulrajdahal/notr-debounce-input": "workspace:*",
     "@rahulrajdahal/notr-password-input": "workspace:*",
-    "@rahulrajdahal/notr-pill": "workspace:*",
+    "@rahulrajdahal/notr-pill": "workspace:*"
+  },
+  "peerDependencies": {
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },

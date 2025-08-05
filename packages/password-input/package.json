@@ -1,6 +1,6 @@
 {
   "name": "@rahulrajdahal/notr-password-input",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Password Input component for notr app",
   "publishConfig": {
     "access": "public"
@@ -39,10 +39,6 @@
   },
   "peerDependencies": {
     "@emotion/react": "^11.14.0",
-    "@rahulrajdahal/notr-core": "workspace:*",
-    "@rahulrajdahal/notr-rollup-plugins": "workspace:*",
-    "@rahulrajdahal/notr-ts-config": "workspace:*",
-    "@rahulrajdahal/notr-input": "workspace:*",
     "react": "19.1.0",
     "@meistericons/react": "^0.22.1",
     "react-dom": "19.1.0"
@@ -66,5 +62,11 @@
     "rollup": "^4.46.2",
     "tslib": "^2.8.1",
     "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@rahulrajdahal/notr-core": "workspace:*",
+    "@rahulrajdahal/notr-rollup-plugins": "workspace:*",
+    "@rahulrajdahal/notr-ts-config": "workspace:*",
+    "@rahulrajdahal/notr-input": "workspace:*"
   }
 }

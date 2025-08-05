@@ -1,52 +1,10 @@
 
-> @rahulrajdahal/notr-password-input@0.0.1 build /home/runner/work/notr-ui/notr-ui/packages/passwordInput
+> @rahulrajdahal/notr-password-input@0.0.1 build D:\programming\notr-ui\packages\password-input
 > rollup -c
 
 [36m
 [1msrc/index.ts[22m → [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m...[39m
-[1m[33m(!) [plugin typescript] src/PasswordInput.tsx (3:24): @rollup/plugin-typescript TS2307: Cannot find module '@rahulrajdahal/notr-core' or its corresponding type declarations.[39m[22m
-[1m/home/runner/work/notr-ui/notr-ui/packages/passwordInput/src/PasswordInput.tsx:3:24[22m
-[90m
-[7m3[0m import { colors } from "@rahulrajdahal/notr-core";
-[7m [0m [91m                       ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
-[39m
-[1m[33m(!) [plugin typescript] src/PasswordInput.tsx (4:33): @rollup/plugin-typescript TS2307: Cannot find module '@rahulrajdahal/notr-input' or its corresponding type declarations.[39m[22m
-[1m/home/runner/work/notr-ui/notr-ui/packages/passwordInput/src/PasswordInput.tsx:4:33[22m
-[90m
-[7m4[0m import { type InputProps } from "@rahulrajdahal/notr-input";
-[7m [0m [91m                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
-[39m
-[1m[33m(!) [plugin typescript] src/PasswordInput.tsx (90:6): @rollup/plugin-typescript TS2339: Property 'label' does not exist on type 'PasswordInputProps'.[39m[22m
-[1m/home/runner/work/notr-ui/notr-ui/packages/passwordInput/src/PasswordInput.tsx:90:6[22m
-[90m
-[7m90[0m   ({ label, errors, labelProps, inputProps, ...props }, ref) => {
-[7m  [0m [91m     ~~~~~[0m
-[39m
-[1m[33m(!) [plugin typescript] src/PasswordInput.tsx (90:13): @rollup/plugin-typescript TS2339: Property 'errors' does not exist on type 'PasswordInputProps'.[39m[22m
-[1m/home/runner/work/notr-ui/notr-ui/packages/passwordInput/src/PasswordInput.tsx:90:13[22m
-[90m
-[7m90[0m   ({ label, errors, labelProps, inputProps, ...props }, ref) => {
-[7m  [0m [91m            ~~~~~~[0m
-[39m
-[1m[33m(!) [plugin typescript] src/PasswordInput.tsx (90:21): @rollup/plugin-typescript TS2339: Property 'labelProps' does not exist on type 'PasswordInputProps'.[39m[22m
-[1m/home/runner/work/notr-ui/notr-ui/packages/passwordInput/src/PasswordInput.tsx:90:21[22m
-[90m
-[7m90[0m   ({ label, errors, labelProps, inputProps, ...props }, ref) => {
-[7m  [0m [91m                    ~~~~~~~~~~[0m
-[39m
-[1m[33m(!) [plugin typescript] src/PasswordInput.tsx (90:33): @rollup/plugin-typescript TS2339: Property 'inputProps' does not exist on type 'PasswordInputProps'.[39m[22m
-[1m/home/runner/work/notr-ui/notr-ui/packages/passwordInput/src/PasswordInput.tsx:90:33[22m
-[90m
-[7m90[0m   ({ label, errors, labelProps, inputProps, ...props }, ref) => {
-[7m  [0m [91m                                ~~~~~~~~~~[0m
-[39m
-[1m[33m(!) [plugin typescript] src/PasswordInput.tsx (151:23): @rollup/plugin-typescript TS7006: Parameter 'error' implicitly has an 'any' type.[39m[22m
-[1m/home/runner/work/notr-ui/notr-ui/packages/passwordInput/src/PasswordInput.tsx:151:23[22m
-[90m
-[7m151[0m           errors.map((error) => (
-[7m   [0m [91m                      ~~~~~[0m
-[39m
-[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m9.7s[22m[39m
+[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m2.7s[22m[39m
 [36m
 [1msrc/index.ts[22m → [1m./dist/index.d.ts[22m...[39m
-[32mcreated [1m./dist/index.d.ts[22m in [1m1.7s[22m[39m
+[32mcreated [1m./dist/index.d.ts[22m in [1m731ms[22m[39m

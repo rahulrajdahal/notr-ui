@@ -1,6 +1,6 @@
 {
   "name": "@rahulrajdahal/notr-input",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Input component for notr app",
   "publishConfig": {
     "access": "public"
@@ -39,9 +39,6 @@
   },
   "peerDependencies": {
     "@emotion/react": "^11.14.0",
-    "@rahulrajdahal/notr-core": "workspace:*",
-    "@rahulrajdahal/notr-rollup-plugins": "workspace:*",
-    "@rahulrajdahal/notr-ts-config": "workspace:*",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
@@ -64,5 +61,10 @@
     "rollup": "^4.46.2",
     "tslib": "^2.8.1",
     "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@rahulrajdahal/notr-core": "workspace:*",
+    "@rahulrajdahal/notr-rollup-plugins": "workspace:*",
+    "@rahulrajdahal/notr-ts-config": "workspace:*"
   }
 }

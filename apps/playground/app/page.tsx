@@ -3,9 +3,9 @@
 import { CheckSquare } from "@meistericons/react";
 import { Button } from "@rahulrajdahal/notr-button";
 import { colors } from "@rahulrajdahal/notr-core";
-import { DebounceInput } from "@rahulrajdahal/notr-debounceInput";
+import { DebounceInput } from "@rahulrajdahal/notr-debounce-input";
 import { Input } from "@rahulrajdahal/notr-input";
-import { PasswordInput } from "@rahulrajdahal/notr-passwordInput";
+import { PasswordInput } from "@rahulrajdahal/notr-password-input";
 import { Pill } from "@rahulrajdahal/notr-pill";
 import { useState } from "react";
 

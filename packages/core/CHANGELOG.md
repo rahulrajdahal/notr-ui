@@ -1,5 +1,13 @@
 # @rahulrajdahal/notr-core
 
+## 0.0.2
+
+### Patch Changes
+
+- ## Update dependencies
+
+  scoped packages moved from peer to dependencies
+
 ## 0.0.1
 
 ### Patch Changes

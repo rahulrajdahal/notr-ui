@@ -1,5 +1,21 @@
 # @rahulrajdahal/notr-ui
 
+## 0.0.2
+
+### Patch Changes
+
+- ## Update dependencies
+
+  scoped packages moved from peer to dependencies
+
+- Updated dependencies
+  - @rahulrajdahal/notr-debounce-input@0.0.2
+  - @rahulrajdahal/notr-password-input@0.0.2
+  - @rahulrajdahal/notr-button@0.0.6
+  - @rahulrajdahal/notr-input@0.0.2
+  - @rahulrajdahal/notr-core@0.0.2
+  - @rahulrajdahal/notr-pill@0.0.2
+
 ## 0.0.1
 
 ### Patch Changes

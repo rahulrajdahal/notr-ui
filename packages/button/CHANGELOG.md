@@ -1,5 +1,16 @@
 # @rahulrajdahal/notr-button
 
+## 0.0.6
+
+### Patch Changes
+
+- ## Update dependencies
+
+  scoped packages moved from peer to dependencies
+
+- Updated dependencies
+  - @rahulrajdahal/notr-core@0.0.2
+
 ## 0.0.1
 
 ### Patch Changes

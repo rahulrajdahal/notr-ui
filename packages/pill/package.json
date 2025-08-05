@@ -1,6 +1,6 @@
 {
   "name": "@rahulrajdahal/notr-pill",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pill component for notr app",
   "publishConfig": {
     "access": "public"
@@ -37,11 +37,13 @@
     "build:test": "pnpm run test:once && rollup -c",
     "build": "rollup -c"
   },
-  "peerDependencies": {
-    "@emotion/react": "^11.14.0",
+  "dependencies": {
     "@rahulrajdahal/notr-core": "workspace:*",
     "@rahulrajdahal/notr-rollup-plugins": "workspace:*",
-    "@rahulrajdahal/notr-ts-config": "workspace:*",
+    "@rahulrajdahal/notr-ts-config": "workspace:*"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.14.0",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
