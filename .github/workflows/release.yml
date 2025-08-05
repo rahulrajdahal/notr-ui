@@ -26,6 +26,9 @@ jobs:
           git add -A
           git commit -m 'version packages'
           git push
-      - run: npx changeset publish
+      - run: |
+          echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" > .npmrc
+          echo "@rahulrajdahal:registry=https://registry.npmjs.org/" >> .npmrc
+          npx changeset publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
