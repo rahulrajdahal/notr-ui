@@ -10,7 +10,7 @@
 [7m2[0m import { colors } from "@rahulrajdahal/notr-core";
 [7m [0m [91m                       ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
 [39m
-[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m8.9s[22m[39m
+[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m9.4s[22m[39m
 [36m
 [1msrc/index.ts[22m → [1m./dist/index.d.ts[22m...[39m
-[32mcreated [1m./dist/index.d.ts[22m in [1m2.4s[22m[39m
+[32mcreated [1m./dist/index.d.ts[22m in [1m2.2s[22m[39m
