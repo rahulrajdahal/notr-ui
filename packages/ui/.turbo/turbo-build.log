@@ -1,10 +1,10 @@
 
-> @rahulrajdahal/notr-ui@0.0.1 build D:\programming\notr-ui\packages\ui
+> @rahulrajdahal/notr-ui@0.0.2 build /home/runner/work/notr-ui/notr-ui/packages/ui
 > rollup -c
 
 [36m
 [1msrc/index.ts[22m → [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m...[39m
-[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m18.3s[22m[39m
+[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m10.9s[22m[39m
 [36m
 [1msrc/index.ts[22m → [1m./dist/index.d.ts[22m...[39m
-[32mcreated [1m./dist/index.d.ts[22m in [1m968ms[22m[39m
+[32mcreated [1m./dist/index.d.ts[22m in [1m743ms[22m[39m

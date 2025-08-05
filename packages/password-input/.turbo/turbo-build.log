@@ -1,10 +1,10 @@
 
-> @rahulrajdahal/notr-password-input@0.0.1 build D:\programming\notr-ui\packages\password-input
+> @rahulrajdahal/notr-password-input@0.0.2 build /home/runner/work/notr-ui/notr-ui/packages/password-input
 > rollup -c
 
 [36m
 [1msrc/index.ts[22m → [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m...[39m
-[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m2.7s[22m[39m
+[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m2s[22m[39m
 [36m
 [1msrc/index.ts[22m → [1m./dist/index.d.ts[22m...[39m
-[32mcreated [1m./dist/index.d.ts[22m in [1m731ms[22m[39m
+[32mcreated [1m./dist/index.d.ts[22m in [1m513ms[22m[39m
