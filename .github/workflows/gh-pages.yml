@@ -19,7 +19,9 @@ jobs:
           node-version: 20 # Or your preferred Node.js version
 
       - uses: pnpm/action-setup@v4
-      - run: pnpm install
+      - run: |
+          pnpm install
+          pnpm run build
 
       - name: Build VitePress site
         run: pnpm run docs:build # Or your build command, e.g., yarn docs:build
