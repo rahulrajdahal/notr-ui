@@ -5,7 +5,7 @@
 Notr Debounce Input
 
 ```tsx
-import { DebounceInput } from "@rahulrajdahal/notr-debounceInput";
+import { DebounceInput } from "@rahulrajdahal/notr-debounce-input";
 
 return <DebounceInput value="" onChange={(value) => console.log(value)} />;
 ```

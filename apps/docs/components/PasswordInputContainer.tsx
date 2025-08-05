@@ -1,5 +1,5 @@
 import { colors } from "@rahulrajdahal/notr-core";
-import { PasswordInput } from "@rahulrajdahal/notr-passwordInput";
+import { PasswordInput } from "@rahulrajdahal/notr-password-input";
 import React from "react";
 
 export default function PasswordInputContainer() {

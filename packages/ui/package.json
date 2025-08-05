@@ -32,8 +32,8 @@
     "@rahulrajdahal/notr-ts-config": "workspace:*",
     "@rahulrajdahal/notr-button": "workspace:*",
     "@rahulrajdahal/notr-input": "workspace:*",
-    "@rahulrajdahal/notr-debounceInput": "workspace:*",
-    "@rahulrajdahal/notr-passwordInput": "workspace:*",
+    "@rahulrajdahal/notr-debounce-input": "workspace:*",
+    "@rahulrajdahal/notr-password-input": "workspace:*",
     "@rahulrajdahal/notr-pill": "workspace:*",
     "react": "19.1.0",
     "react-dom": "19.1.0"

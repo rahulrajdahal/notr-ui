@@ -1,67 +1,67 @@
 {
-  "hash": "dbb1c5ac",
+  "hash": "b8e756a5",
   "configHash": "44c292b9",
-  "lockfileHash": "1c5096fa",
-  "browserHash": "1d4352fc",
+  "lockfileHash": "1fbbb962",
+  "browserHash": "7680d848",
   "optimized": {
     "vue": {
       "src": "../../../../../node_modules/.pnpm/vue@3.5.18_typescript@5.9.2/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "ee776a5d",
+      "fileHash": "c1f45e6a",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../../node_modules/.pnpm/@vue+devtools-api@7.7.7/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "75efb1e0",
+      "fileHash": "685c0e89",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../../node_modules/.pnpm/@vueuse+core@12.8.2_typescript@5.9.2/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "5fde9be0",
+      "fileHash": "8e69490d",
       "needsInterop": false
     },
     "react": {
       "src": "../../../../../node_modules/.pnpm/react@19.1.0/node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "45a13540",
+      "fileHash": "879b0921",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../../../../node_modules/.pnpm/react-dom@19.1.0_react@19.1.0/node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "634e30b2",
+      "fileHash": "2fc38219",
       "needsInterop": true
-    },
-    "@meistericons/react": {
-      "src": "../../../../../node_modules/.pnpm/@meistericons+react@0.22.1__4a4cd1ba51a90be0a687c780959c0f63/node_modules/@meistericons/react/lib/esm/meistericons-react.js",
-      "file": "@meistericons_react.js",
-      "fileHash": "1d497e7d",
-      "needsInterop": false
     },
     "@emotion/react/jsx-runtime": {
       "src": "../../../../../node_modules/.pnpm/@emotion+react@11.14.0_@types+react@19.1.9_react@19.1.0/node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.browser.development.esm.js",
       "file": "@emotion_react_jsx-runtime.js",
-      "fileHash": "47b7bf67",
+      "fileHash": "8ed9c177",
       "needsInterop": false
     },
     "@emotion/react": {
       "src": "../../../../../node_modules/.pnpm/@emotion+react@11.14.0_@types+react@19.1.9_react@19.1.0/node_modules/@emotion/react/dist/emotion-react.browser.development.esm.js",
       "file": "@emotion_react.js",
-      "fileHash": "4b89948a",
+      "fileHash": "dcb66bed",
+      "needsInterop": false
+    },
+    "@meistericons/react": {
+      "src": "../../../../../node_modules/.pnpm/@meistericons+react@0.22.1__4a4cd1ba51a90be0a687c780959c0f63/node_modules/@meistericons/react/lib/esm/meistericons-react.js",
+      "file": "@meistericons_react.js",
+      "fileHash": "d70003bc",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-RJQ7JHA2": {
+      "file": "chunk-RJQ7JHA2.js"
+    },
     "chunk-QCHO54R6": {
       "file": "chunk-QCHO54R6.js"
     },
     "chunk-AWK6ISZ2": {
       "file": "chunk-AWK6ISZ2.js"
-    },
-    "chunk-RJQ7JHA2": {
-      "file": "chunk-RJQ7JHA2.js"
     },
     "chunk-G3PMV62Z": {
       "file": "chunk-G3PMV62Z.js"
