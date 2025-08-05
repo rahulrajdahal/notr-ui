@@ -1,20 +1,46 @@
 
-> @rahulrajdahal/notr-ui@0.0.0 build D:\programming\notr-ui\packages\ui
+> @rahulrajdahal/notr-ui@0.0.1 build /home/runner/work/notr-ui/notr-ui/packages/ui
 > rollup -c
 
 [36m
 [1msrc/index.ts[22m → [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m...[39m
+[1m[33m(!) [plugin typescript] src/index.ts (1:15): @rollup/plugin-typescript TS2307: Cannot find module '@rahulrajdahal/notr-button' or its corresponding type declarations.[39m[22m
+[1m/home/runner/work/notr-ui/notr-ui/packages/ui/src/index.ts:1:15[22m
+[90m
+[7m1[0m export * from "@rahulrajdahal/notr-button";
+[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[39m
 [1m[33m(!) [plugin typescript] src/index.ts (2:15): @rollup/plugin-typescript TS2307: Cannot find module '@rahulrajdahal/notr-core' or its corresponding type declarations.[39m[22m
-[1mD:/programming/notr-ui/packages/ui/src/index.ts:2:15[22m
+[1m/home/runner/work/notr-ui/notr-ui/packages/ui/src/index.ts:2:15[22m
 [90m
 [7m2[0m export * from "@rahulrajdahal/notr-core";
 [7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
 [39m
-[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m7.7s[22m[39m
+[1m[33m(!) [plugin typescript] src/index.ts (3:15): @rollup/plugin-typescript TS2307: Cannot find module '@rahulrajdahal/notr-debounceInput' or its corresponding type declarations.[39m[22m
+[1m/home/runner/work/notr-ui/notr-ui/packages/ui/src/index.ts:3:15[22m
+[90m
+[7m3[0m export * from "@rahulrajdahal/notr-debounceInput";
+[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[39m
+[1m[33m(!) [plugin typescript] src/index.ts (4:15): @rollup/plugin-typescript TS2307: Cannot find module '@rahulrajdahal/notr-input' or its corresponding type declarations.[39m[22m
+[1m/home/runner/work/notr-ui/notr-ui/packages/ui/src/index.ts:4:15[22m
+[90m
+[7m4[0m export * from "@rahulrajdahal/notr-input";
+[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[39m
+[1m[33m(!) [plugin typescript] src/index.ts (5:15): @rollup/plugin-typescript TS2307: Cannot find module '@rahulrajdahal/notr-passwordInput' or its corresponding type declarations.[39m[22m
+[1m/home/runner/work/notr-ui/notr-ui/packages/ui/src/index.ts:5:15[22m
+[90m
+[7m5[0m export * from "@rahulrajdahal/notr-passwordInput";
+[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[39m
+[1m[33m(!) [plugin typescript] src/index.ts (6:15): @rollup/plugin-typescript TS2307: Cannot find module '@rahulrajdahal/notr-pill' or its corresponding type declarations.[39m[22m
+[1m/home/runner/work/notr-ui/notr-ui/packages/ui/src/index.ts:6:15[22m
+[90m
+[7m6[0m export * from "@rahulrajdahal/notr-pill";
+[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[39m
+[32mcreated [1m./dist/cjs/index.js, ./dist/es/index.mjs[22m in [1m7.2s[22m[39m
 [36m
 [1msrc/index.ts[22m → [1m./dist/index.d.ts[22m...[39m
-[1m[33m(!) Unresolved dependencies[39m[22m
-[90mhttps://rollupjs.org/troubleshooting/#warning-treating-module-as-external-dependency[39m
-[1m@rahulrajdahal/notr-passwordInput[22m (imported by "src/index.ts")
-[1m@rahulrajdahal/notr-pill[22m (imported by "src/index.ts")
-[32mcreated [1m./dist/index.d.ts[22m in [1m3.3s[22m[39m
+[32mcreated [1m./dist/index.d.ts[22m in [1m3.5s[22m[39m
