@@ -1,6 +1,6 @@
 {
   "name": "@rahulrajdahal/notr-button",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Button component for notr app",
   "main": "./dist/cjs/index.js",
   "module": "./dist/es/index.mjs",
